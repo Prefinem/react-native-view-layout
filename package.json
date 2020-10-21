@@ -1,0 +1,42 @@
+{
+	"author": {
+		"email": "william@prefinem.com",
+		"name": "William",
+		"url": "https://prefinem.com"
+	},
+	"bugs": {
+		"email": "william@prefinem.com",
+		"url": "https://github.com/Prefinem/react-native-view-layout/issues"
+	},
+	"description": "A react native view component for easy layouts and grids",
+	"devDependencies": {
+		"@babel/core": "^7.1.0",
+		"babel-eslint": "^10.0.0",
+		"eslint": "^5.6.0",
+		"eslint-config-prettier": "^3.0.1",
+		"eslint-plugin-babel": "^5.2.1",
+		"eslint-plugin-jest": "^21.21.0",
+		"eslint-plugin-react": "^7.4.0",
+		"husky": "^1.0.0",
+		"lint-staged": "^8.0.0",
+		"prettier": "^1.14.3"
+	},
+	"files": ["src/"],
+	"homepage": "https://github.com/Prefinem/react-native-view-layout",
+	"keywords": ["react", "react-native", "view", "layout", "grid"],
+	"license": "MIT",
+	"lint-staged": {
+		"*.js": ["eslint --fix", "prettier --config ./.prettierrc.json --write", "git add"]
+	},
+	"main": "src/View.js",
+	"name": "react-native-view-layout",
+	"peerDependencies": {
+		"react": ">= 16",
+		"react-native": ">= 30"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Prefinem/react-native-view-layout.git"
+	},
+	"version": "0.1.1"
+}
